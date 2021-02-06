@@ -1,0 +1,65 @@
+
+
+#container {
+  max-width: 1000px;
+  margin: 30px auto;
+  background: #D4F1F4;
+  padding: 40px;
+}
+
+table {
+  width: 100%
+}
+
+th, td {
+  border: 1px solid black;
+}
+
+th {
+  height: 50px;
+  text-align: left;
+  font-size: 20px;
+  background: #fff;
+  font-weight: bolder;
+}
+
+th, td {
+	padding: 8px;
+}
+
+td {
+height: 40px;
+vertical-align: bottom;
+font-size: 17px;
+font-weight: bold;
+}
+
+/* table styling tutorial from: https://careerkarma.com/blog/css-tables/ */
+
+/* media queries */
+
+@media screen and ( max-width: 1024px ) {
+  body {
+    background: #D4F1F4;
+  }
+}
+
+@media screen and ( max-width: 850px ) {
+  #container {
+    max-width: 100%;
+    min-width: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+
+  p {
+    width: 90%;
+    margin: auto;
+  }
+  td, th {
+    padding: 3px;
+  }
+  table {
+    margin: auto;
+  }
+}
